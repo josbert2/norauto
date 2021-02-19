@@ -1,0 +1,383 @@
+@font-face {
+    font-family: iconfont;
+    font-display: swap;
+    src: url("../fonts/iconfont.woff2") format("woff2");
+
+  }
+  
+  .icon::before {
+    font-family: iconfont !important;
+    font-style: normal;
+    font-weight: 400;
+    font-variant: normal;
+    text-decoration: none;
+    text-transform: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  
+  .icon-2h::before {
+    content: "\f101";
+  }
+  
+  .icon-account_customer::before {
+    content: "\f102";
+  }
+  
+  .icon-alert_error::before {
+    content: "\f103";
+  }
+  
+  .icon-alert_info::before {
+    content: "\f104";
+  }
+  
+  .icon-alert_question::before {
+    content: "\f105";
+  }
+  
+  .icon-alert_valid::before {
+    content: "\f106";
+  }
+  
+  .icon-alert_warning::before {
+    content: "\f107";
+  }
+  
+  .icon-angle::before {
+    content: "\f108";
+  }
+  
+  .icon-arrow::before {
+    content: "\f109";
+  }
+  
+  .icon-brake::before {
+    content: "\f10a";
+  }
+  
+  .icon-cadeau-offert-2::before {
+    content: "\f10b";
+  }
+  
+  .icon-call_center::before {
+    content: "\f10c";
+  }
+  
+  .icon-car_add::before {
+    content: "\f10d";
+  }
+  
+  .icon-car_key::before {
+    content: "\f10e";
+  }
+  
+  .icon-car-o::before {
+    content: "\f10f";
+  }
+  
+  .icon-car::before {
+    content: "\f110";
+  }
+  
+  .icon-cart::before {
+    content: "\f111";
+  }
+  
+  .icon-check::before {
+    content: "\f112";
+  }
+  
+  .icon-check_white::before {
+    content: "\f113";
+  }
+  
+  .icon-date-check::before {
+    content: "\f114";
+  }
+  
+  .icon-delete_forever::before {
+    content: "\f115";
+  }
+  
+  .icon-delevery::before {
+    content: "\f116";
+  }
+  
+  .icon-diagnostic::before {
+    content: "\f117";
+  }
+  
+  .icon-discount_pc_1::before {
+    content: "\f118";
+  }
+  
+  .icon-discount_pc_2::before {
+    content: "\f119";
+  }
+  
+  .icon-discount_ticket::before {
+    content: "\f11a";
+  }
+  
+  .icon-discount-workshop::before {
+    content: "\f11b";
+  }
+  
+  .icon-download::before {
+    content: "\f11c";
+  }
+  
+  .icon-edit::before {
+    content: "\f11d";
+  }
+  
+  .icon-facebook::before {
+    content: "\f11e";
+  }
+  
+  .icon-fidelity_card::before {
+    content: "\f11f";
+  }
+  
+  .icon-funding::before {
+    content: "\f120";
+  }
+  
+  .icon-garageA::before {
+    content: "\f121";
+  }
+  
+  .icon-garageN::before {
+    content: "\f122";
+  }
+  
+  .icon-garage::before {
+    content: "\f123";
+  }
+  
+  .icon-google_plus::before {
+    content: "\f124";
+  }
+  
+  .icon-hear::before {
+    content: "\f125";
+  }
+  
+  .icon-instagram::before {
+    content: "\f126";
+  }
+  
+  .icon-license_plate_eu::before {
+    content: "\f127";
+  }
+  
+  .icon-light::before {
+    content: "\f128";
+  }
+  
+  .icon-lock_secure::before {
+    content: "\f129";
+  }
+  
+  .icon-mail_line::before {
+    content: "\f12a";
+  }
+  
+  .icon-mail_send::before {
+    content: "\f12b";
+  }
+  
+  .icon-mail::before {
+    content: "\f12c";
+  }
+  
+  .icon-more_2::before {
+    content: "\f12d";
+  }
+  
+  .icon-motor::before {
+    content: "\f12e";
+  }
+  
+  .icon-navigation_back::before {
+    content: "\f12f";
+  }
+  
+  .icon-navigation_chevron::before {
+    content: "\f130";
+  }
+  
+  .icon-navigation_close::before {
+    content: "\f131";
+  }
+  
+  .icon-navigation_list::before {
+    content: "\f132";
+  }
+  
+  .icon-paiment_store::before {
+    content: "\f133";
+  }
+  
+  .icon-people::before {
+    content: "\f134";
+  }
+  
+  .icon-petrol::before {
+    content: "\f135";
+  }
+  
+  .icon-phone::before {
+    content: "\f136";
+  }
+  
+  .icon-pin_location::before {
+    content: "\f137";
+  }
+  
+  .icon-pin::before {
+    content: "\f138";
+  }
+  
+  .icon-purchase_history::before {
+    content: "\f139";
+  }
+  
+  .icon-question::before {
+    content: "\f13a";
+  }
+  
+  .icon-rain::before {
+    content: "\f13b";
+  }
+  
+  .icon-refresh::before {
+    content: "\f13c";
+  }
+  
+  .icon-repair::before {
+    content: "\f13d";
+  }
+  
+  .icon-return-shipping::before {
+    content: "\f13e";
+  }
+  
+  .icon-scan::before {
+    content: "\f13f";
+  }
+  
+  .icon-search::before {
+    content: "\f140";
+  }
+  
+  .icon-service_book::before {
+    content: "\f141";
+  }
+  
+  .icon-shipping::before {
+    content: "\f142";
+  }
+  
+  .icon-shopping_cart_add::before {
+    content: "\f143";
+  }
+  
+  .icon-shopping_cart_sad::before {
+    content: "\f144";
+  }
+  
+  .icon-shopping_cart::before {
+    content: "\f145";
+  }
+  
+  .icon-sms::before {
+    content: "\f146";
+  }
+  
+  .icon-sms_wrench::before {
+    content: "\f147";
+  }
+  
+  .icon-snow::before {
+    content: "\f148";
+  }
+  
+  .icon-sound_2::before {
+    content: "\f149";
+  }
+  
+  .icon-speak::before {
+    content: "\f14a";
+  }
+  
+  .icon-star::before {
+    content: "\f14b";
+  }
+  
+  .icon-sun::before {
+    content: "\f14c";
+  }
+  
+  .icon-time_access::before {
+    content: "\f14d";
+  }
+  
+  .icon-timer::before {
+    content: "\f14e";
+  }
+  
+  .icon-timing_belt::before {
+    content: "\f14f";
+  }
+  
+  .icon-tire_flat::before {
+    content: "\f150";
+  }
+  
+  .icon-tire::before {
+    content: "\f151";
+  }
+  
+  .icon-twitter::before {
+    content: "\f152";
+  }
+  
+  .icon-update::before {
+    content: "\f153";
+  }
+  
+  .icon-user::before {
+    content: "\f154";
+  }
+  
+  .icon-video::before {
+    content: "\f155";
+  }
+  
+  .icon-windscreen_wiper::before {
+    content: "\f156";
+  }
+  
+  .icon-wrench::before {
+    content: "\f157";
+  }
+  
+  .icon-youtube::before {
+    content: "\f158";
+  }
+  
+  .icon-xs {
+    font-size: 18px;
+  }
+  
+  .icon-sm {
+    font-size: 26px;
+  }
+  
+  .icon-lg {
+    font-size: 38px;
+  }
+  
