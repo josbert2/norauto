@@ -9,7 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;700;900&display=swap" rel="stylesheet">
 	<meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1, maximum-scale=1, user-scalable=0">
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
-
+	
 </head>
 <body>
 	
@@ -133,7 +133,9 @@
 		</div>
 		<div class="mobile-menu d-flex justify-content-between">
 			<div class="">
-				<button type="button" data-cerberus="Mobile_OpenMenu" class="bt-menu icon icon-menu" data-target="#main-nav" data-canvas=".canvas" data-tracker-optimeeze-index="0"></button>
+				<button type="button" data-cerberus="Mobile_OpenMenu" class="bt-menu menu-icon icon icon-menu" data-target="#main-nav" data-canvas=".canvas" data-tracker-optimeeze-index="0">
+					<svg xmlns='http://www.w3.org/2000/svg' class='ionicon' viewBox='0 0 512 512'><title>Menu</title><path fill='none' stroke='currentColor' stroke-linecap='round' stroke-miterlimit='10' stroke-width='32' d='M80 160h352M80 256h352M80 352h352'/></svg>
+				</button>
 			</div>
 			<div class="">
 				<a class="bt-search icon icon-search" href="#search" value="Buscar" data-tracker-optimeeze-index="0"></a>
@@ -150,6 +152,92 @@
 			<div class="">
 				<a class="bt-cart icon icon-cart" data-cerberus="basket-header-link" href="https://www.norauto.es/cart.html?CheckoutAction=BasketInvalidate" onclick="">
 				</a>
+			</div>
+		</div>
+		<div class="menu--enabled">
+			<div class="menu">
+				<div class="app-menu main-nav">
+					<button class="fill" data-remodal-action="close">
+						
+<svg width="24" height="25" xmlns="http://www.w3.org/2000/svg"><g fill="#A3A3A3" fill-rule="nonzero"><path d="M12.05 24.948C5.45 24.948.1 19.375.1 12.5S5.45.052 12.05.052 24 5.625 24 12.5c0 6.823-5.35 12.448-11.95 12.448zm0-23.594c-5.85 0-10.65 5-10.65 11.094 0 6.094 4.8 11.094 10.65 11.094 5.85 0 10.65-5 10.65-11.094 0-6.094-4.8-11.094-10.65-11.094z"/><path d="M6.85 18.854l-.95-.99 11.3-11.77.95.99-11.3 11.77"/><path d="M17.2 18.854L5.9 7.084l.95-.99 11.3 11.77-.95.99"/></g></svg>
+					</button>
+					<div class="main-nivel nivel-cat-1 active" data-lvl="1" data-to="2">
+						<div class="log-user account-link" style="    border-bottom: 1px solid #d6d6d6;">
+							<li class="">
+								<a href="https://www.norauto.es/login.html" data-cerberus="login-header-link"> 
+									<div class="icon icon-user"></div>
+									<div style="padding-left: 45px;">
+										<strong>Mi cuenta</strong>
+										<small>Conectarse</small>
+									</div>
+								</a>
+							</li>
+						</div>
+						<div class="vehicle-link" style="   ">
+							<a class="cursor js-popin" data_loadcss="carselector" data_modal_class="carselector" href="#" data-href="https://www.norauto.es/INTERSHOP/web/WFS/NI-NOES-Site/es_ES/uas-mobile-b2c-web-shop/EUR/ViewCarSelectorpage-PopupCarSelector" data-cerberus="car-header-link">
+								<div class="icon icon-car"></div>
+								<div style="padding-left: 45px;">
+								<span><strong>Mi vehículo</strong></span>
+								<small>Seleccionar</small>
+								</div>
+							</a>
+						</div>
+						<ul class="menu--categories">
+							<li class="bt-child-menu">
+								<a href="#">Menu cateogía 1</a>
+							</li>
+							<li class="bt-child-menu">
+								<a href="#">Menu cateogía 1</a>
+							</li>
+							<li class="bt-child-menu">
+								<a href="#">Menu cateogía 1</a>
+							</li>
+							<li class="bt-child-menu">
+								<a href="#">Menu cateogía 1</a>
+							</li>
+						</ul>
+					</div>
+					<div class="main-nivel nivel-cat-2" data-lvl="2" data-to="3">
+						<div class="header-section">
+							<button class="bt-back" data-to="1" href="#">Volver</button>
+							<a href="#" class="title-menu"  aria-expanded="false">Coger cita en taller</a>
+						</div>
+						<ul class="menu--categories">
+							<li class="bt-child-menu">
+								<a href="#">Menu cateogía 2</a>
+							</li>
+							<li class="bt-child-menu">
+								<a href="#">Menu cateogía 2</a>
+							</li>
+							<li class="bt-child-menu">
+								<a href="#">Menu cateogía 2</a>
+							</li>
+							<li class="bt-child-menu">
+								<a href="#">Menu cateogía 2</a>
+							</li>
+						</ul>
+					</div>
+					<div class="main-nivel nivel-cat-3" data-lvl="3" data-to="1">
+						<div class="header-section">
+							<button class="bt-back" data-to="2" href="#">Volver</button>
+							<a href="#" class="title-menu"  aria-expanded="false">Coger cita en taller</a>
+						</div>
+						<ul >
+							<li class="bt-child-menu">
+								<a href="#">Menu cateogía 3</a>
+							</li>
+							<li class="bt-child-menu">
+								<a href="#">Menu cateogía 3</a>
+							</li>
+							<li class="bt-child-menu">
+								<a href="#">Menu cateogía 3</a>
+							</li>
+							<li class="bt-child-menu">
+								<a href="#">Menu cateogía 3</a>
+							</li>
+						</ul>
+					</div>
+				</div>
 			</div>
 		</div>
 		<nav class="container-fluid">
@@ -1402,6 +1490,36 @@
 			// instead of a settings object
 		]
 		});
+		var i = $('.app-menu').width()
+		$('.main-nivel').each(function(){
+			
+			if (!$(this).hasClass('active')){
+				$(this).css({'-webkit-transform':'translateX(' + i + 'px)'})
+			
+			}
+		})	
+		$('.menu--categories li a').on('click', function(e){
+			e.preventDefault()
+			var id = $(this).parent().parent().parent().attr('data-to')
+			$(this).parent().parent().parent().removeClass('active')		
+			$(this).parent().parent().parent().css({'-webkit-transform':'translateX(' + i + 'px)'})
+		
+			//$(this).css({'-webkit-transform':'translateX(' + i + 'px)'})
+			//$(this).removeClass('active')
+			console.log(id)
+
+			$('.main-nivel[data-lvl=' + id + ']').addClass('active')
+			$('.main-nivel[data-lvl=' + id + ']').css({'-webkit-transform':'translateX(0px)'})
+					
+		})
+		$('.header-section .bt-back').on('click', function(e){
+			e.preventDefault()
+			var id = $(this).attr('data-to')
+			$(this).parent().parent().css({'-webkit-transform':'translateX(' + i + 'px)'})
+			$('.main-nivel').removeClass('active')	
+			$('.main-nivel[data-lvl=' + id + ']').addClass('active')
+			$('.main-nivel[data-lvl=' + id + ']').css({'-webkit-transform':'translateX(0px)'})
+		})
 
 	</script>
 </body>

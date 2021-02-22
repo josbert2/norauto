@@ -3605,7 +3605,68 @@ li {
   src: url("../fonts/iconfont.woff2") format("woff2");
 }
 
-/* line 8, src/sass/components/_icon.scss */
+/* line 7, src/sass/components/_icon.scss */
+.slide-menu {
+  position: fixed;
+  width: 320px;
+  max-width: 100%;
+  height: 100vh;
+  top: 0;
+  right: 0;
+  display: none;
+  overflow: hidden;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-transform: translateX(100%);
+          transform: translateX(100%);
+  overflow-y: auto;
+  z-index: 1000;
+}
+
+/* line 7, src/sass/components/_icon.scss */
+.slide-menu, .slide-menu .slide-menu__slider {
+  -webkit-transition: -webkit-transform .3s ease-in-out;
+  transition: -webkit-transform .3s ease-in-out;
+  transition: transform .3s ease-in-out;
+  transition: transform .3s ease-in-out, -webkit-transform .3s ease-in-out;
+  will-change: transform;
+}
+
+/* line 7, src/sass/components/_icon.scss */
+.slide-menu .slide-menu__slider {
+  width: 100%;
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
+}
+
+/* line 7, src/sass/components/_icon.scss */
+.slide-menu ul {
+  position: relative;
+  width: 100%;
+  margin: 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+/* line 7, src/sass/components/_icon.scss */
+.slide-menu ul ul {
+  position: absolute;
+  top: 0;
+  left: 100%;
+  display: none;
+}
+
+/* line 7, src/sass/components/_icon.scss */
+.slide-menu ul a {
+  display: block;
+}
+
+/* line 7, src/sass/components/_icon.scss */
+.slide-menu a {
+  cursor: pointer;
+}
+
+/* line 9, src/sass/components/_icon.scss */
 .icon::before {
   font-family: iconfont !important;
   font-style: normal;
@@ -3617,457 +3678,457 @@ li {
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* line 20, src/sass/components/_icon.scss */
+/* line 21, src/sass/components/_icon.scss */
 .icon-2h::before {
   content: "\f101";
 }
 
-/* line 24, src/sass/components/_icon.scss */
+/* line 25, src/sass/components/_icon.scss */
 .icon-account_customer::before {
   content: "\f102";
 }
 
-/* line 28, src/sass/components/_icon.scss */
+/* line 29, src/sass/components/_icon.scss */
 .icon-alert_error::before {
   content: "\f103";
 }
 
-/* line 32, src/sass/components/_icon.scss */
+/* line 33, src/sass/components/_icon.scss */
 .icon-alert_info::before {
   content: "\f104";
 }
 
-/* line 36, src/sass/components/_icon.scss */
+/* line 37, src/sass/components/_icon.scss */
 .icon-alert_question::before {
   content: "\f105";
 }
 
-/* line 40, src/sass/components/_icon.scss */
+/* line 41, src/sass/components/_icon.scss */
 .icon-alert_valid::before {
   content: "\f106";
 }
 
-/* line 44, src/sass/components/_icon.scss */
+/* line 45, src/sass/components/_icon.scss */
 .icon-alert_warning::before {
   content: "\f107";
 }
 
-/* line 48, src/sass/components/_icon.scss */
+/* line 49, src/sass/components/_icon.scss */
 .icon-angle::before {
   content: "\f108";
 }
 
-/* line 52, src/sass/components/_icon.scss */
+/* line 53, src/sass/components/_icon.scss */
 .icon-arrow::before {
   content: "\f109";
 }
 
-/* line 56, src/sass/components/_icon.scss */
+/* line 57, src/sass/components/_icon.scss */
 .icon-brake::before {
   content: "\f10a";
 }
 
-/* line 60, src/sass/components/_icon.scss */
+/* line 61, src/sass/components/_icon.scss */
 .icon-cadeau-offert-2::before {
   content: "\f10b";
 }
 
-/* line 64, src/sass/components/_icon.scss */
+/* line 65, src/sass/components/_icon.scss */
 .icon-call_center::before {
   content: "\f10c";
 }
 
-/* line 68, src/sass/components/_icon.scss */
+/* line 69, src/sass/components/_icon.scss */
 .icon-car_add::before {
   content: "\f10d";
 }
 
-/* line 72, src/sass/components/_icon.scss */
+/* line 73, src/sass/components/_icon.scss */
 .icon-car_key::before {
   content: "\f10e";
 }
 
-/* line 76, src/sass/components/_icon.scss */
+/* line 77, src/sass/components/_icon.scss */
 .icon-car-o::before {
   content: "\f10f";
 }
 
-/* line 80, src/sass/components/_icon.scss */
+/* line 81, src/sass/components/_icon.scss */
 .icon-car::before {
   content: "\f110";
 }
 
-/* line 84, src/sass/components/_icon.scss */
+/* line 85, src/sass/components/_icon.scss */
 .icon-cart::before {
   content: "\f111";
 }
 
-/* line 88, src/sass/components/_icon.scss */
+/* line 89, src/sass/components/_icon.scss */
 .icon-check::before {
   content: "\f112";
 }
 
-/* line 92, src/sass/components/_icon.scss */
+/* line 93, src/sass/components/_icon.scss */
 .icon-check_white::before {
   content: "\f113";
 }
 
-/* line 96, src/sass/components/_icon.scss */
+/* line 97, src/sass/components/_icon.scss */
 .icon-date-check::before {
   content: "\f114";
 }
 
-/* line 100, src/sass/components/_icon.scss */
+/* line 101, src/sass/components/_icon.scss */
 .icon-delete_forever::before {
   content: "\f115";
 }
 
-/* line 104, src/sass/components/_icon.scss */
+/* line 105, src/sass/components/_icon.scss */
 .icon-delevery::before {
   content: "\f116";
 }
 
-/* line 108, src/sass/components/_icon.scss */
+/* line 109, src/sass/components/_icon.scss */
 .icon-diagnostic::before {
   content: "\f117";
 }
 
-/* line 112, src/sass/components/_icon.scss */
+/* line 113, src/sass/components/_icon.scss */
 .icon-discount_pc_1::before {
   content: "\f118";
 }
 
-/* line 116, src/sass/components/_icon.scss */
+/* line 117, src/sass/components/_icon.scss */
 .icon-discount_pc_2::before {
   content: "\f119";
 }
 
-/* line 120, src/sass/components/_icon.scss */
+/* line 121, src/sass/components/_icon.scss */
 .icon-discount_ticket::before {
   content: "\f11a";
 }
 
-/* line 124, src/sass/components/_icon.scss */
+/* line 125, src/sass/components/_icon.scss */
 .icon-discount-workshop::before {
   content: "\f11b";
 }
 
-/* line 128, src/sass/components/_icon.scss */
+/* line 129, src/sass/components/_icon.scss */
 .icon-download::before {
   content: "\f11c";
 }
 
-/* line 132, src/sass/components/_icon.scss */
+/* line 133, src/sass/components/_icon.scss */
 .icon-edit::before {
   content: "\f11d";
 }
 
-/* line 136, src/sass/components/_icon.scss */
+/* line 137, src/sass/components/_icon.scss */
 .icon-facebook::before {
   content: "\f11e";
 }
 
-/* line 140, src/sass/components/_icon.scss */
+/* line 141, src/sass/components/_icon.scss */
 .icon-fidelity_card::before {
   content: "\f11f";
 }
 
-/* line 144, src/sass/components/_icon.scss */
+/* line 145, src/sass/components/_icon.scss */
 .icon-funding::before {
   content: "\f120";
 }
 
-/* line 148, src/sass/components/_icon.scss */
+/* line 149, src/sass/components/_icon.scss */
 .icon-garageA::before {
   content: "\f121";
 }
 
-/* line 152, src/sass/components/_icon.scss */
+/* line 153, src/sass/components/_icon.scss */
 .icon-garageN::before {
   content: "\f122";
 }
 
-/* line 156, src/sass/components/_icon.scss */
+/* line 157, src/sass/components/_icon.scss */
 .icon-garage::before {
   content: "\f123";
 }
 
-/* line 160, src/sass/components/_icon.scss */
+/* line 161, src/sass/components/_icon.scss */
 .icon-google_plus::before {
   content: "\f124";
 }
 
-/* line 164, src/sass/components/_icon.scss */
+/* line 165, src/sass/components/_icon.scss */
 .icon-hear::before {
   content: "\f125";
 }
 
-/* line 168, src/sass/components/_icon.scss */
+/* line 169, src/sass/components/_icon.scss */
 .icon-instagram::before {
   content: "\f126";
 }
 
-/* line 172, src/sass/components/_icon.scss */
+/* line 173, src/sass/components/_icon.scss */
 .icon-license_plate_eu::before {
   content: "\f127";
 }
 
-/* line 176, src/sass/components/_icon.scss */
+/* line 177, src/sass/components/_icon.scss */
 .icon-light::before {
   content: "\f128";
 }
 
-/* line 180, src/sass/components/_icon.scss */
+/* line 181, src/sass/components/_icon.scss */
 .icon-lock_secure::before {
   content: "\f129";
 }
 
-/* line 184, src/sass/components/_icon.scss */
+/* line 185, src/sass/components/_icon.scss */
 .icon-mail_line::before {
   content: "\f12a";
 }
 
-/* line 188, src/sass/components/_icon.scss */
+/* line 189, src/sass/components/_icon.scss */
 .icon-mail_send::before {
   content: "\f12b";
 }
 
-/* line 192, src/sass/components/_icon.scss */
+/* line 193, src/sass/components/_icon.scss */
 .icon-mail::before {
   content: "\f12c";
 }
 
-/* line 196, src/sass/components/_icon.scss */
+/* line 197, src/sass/components/_icon.scss */
 .icon-more_2::before {
   content: "\f12d";
 }
 
-/* line 200, src/sass/components/_icon.scss */
+/* line 201, src/sass/components/_icon.scss */
 .icon-motor::before {
   content: "\f12e";
 }
 
-/* line 204, src/sass/components/_icon.scss */
+/* line 205, src/sass/components/_icon.scss */
 .icon-navigation_back::before {
   content: "\f12f";
 }
 
-/* line 208, src/sass/components/_icon.scss */
+/* line 209, src/sass/components/_icon.scss */
 .icon-navigation_chevron::before {
   content: "\f130";
 }
 
-/* line 212, src/sass/components/_icon.scss */
+/* line 213, src/sass/components/_icon.scss */
 .icon-navigation_close::before {
   content: "\f131";
 }
 
-/* line 216, src/sass/components/_icon.scss */
+/* line 217, src/sass/components/_icon.scss */
 .icon-navigation_list::before {
   content: "\f132";
 }
 
-/* line 220, src/sass/components/_icon.scss */
+/* line 221, src/sass/components/_icon.scss */
 .icon-paiment_store::before {
   content: "\f133";
 }
 
-/* line 224, src/sass/components/_icon.scss */
+/* line 225, src/sass/components/_icon.scss */
 .icon-people::before {
   content: "\f134";
 }
 
-/* line 228, src/sass/components/_icon.scss */
+/* line 229, src/sass/components/_icon.scss */
 .icon-petrol::before {
   content: "\f135";
 }
 
-/* line 232, src/sass/components/_icon.scss */
+/* line 233, src/sass/components/_icon.scss */
 .icon-phone::before {
   content: "\f136";
 }
 
-/* line 236, src/sass/components/_icon.scss */
+/* line 237, src/sass/components/_icon.scss */
 .icon-pin_location::before {
   content: "\f137";
 }
 
-/* line 240, src/sass/components/_icon.scss */
+/* line 241, src/sass/components/_icon.scss */
 .icon-pin::before {
   content: "\f138";
 }
 
-/* line 244, src/sass/components/_icon.scss */
+/* line 245, src/sass/components/_icon.scss */
 .icon-purchase_history::before {
   content: "\f139";
 }
 
-/* line 248, src/sass/components/_icon.scss */
+/* line 249, src/sass/components/_icon.scss */
 .icon-question::before {
   content: "\f13a";
 }
 
-/* line 252, src/sass/components/_icon.scss */
+/* line 253, src/sass/components/_icon.scss */
 .icon-rain::before {
   content: "\f13b";
 }
 
-/* line 256, src/sass/components/_icon.scss */
+/* line 257, src/sass/components/_icon.scss */
 .icon-refresh::before {
   content: "\f13c";
 }
 
-/* line 260, src/sass/components/_icon.scss */
+/* line 261, src/sass/components/_icon.scss */
 .icon-repair::before {
   content: "\f13d";
 }
 
-/* line 264, src/sass/components/_icon.scss */
+/* line 265, src/sass/components/_icon.scss */
 .icon-return-shipping::before {
   content: "\f13e";
 }
 
-/* line 268, src/sass/components/_icon.scss */
+/* line 269, src/sass/components/_icon.scss */
 .icon-scan::before {
   content: "\f13f";
 }
 
-/* line 272, src/sass/components/_icon.scss */
+/* line 273, src/sass/components/_icon.scss */
 .icon-search::before {
   content: "\f140";
 }
 
-/* line 276, src/sass/components/_icon.scss */
+/* line 277, src/sass/components/_icon.scss */
 .icon-service_book::before {
   content: "\f141";
 }
 
-/* line 280, src/sass/components/_icon.scss */
+/* line 281, src/sass/components/_icon.scss */
 .icon-shipping::before {
   content: "\f142";
 }
 
-/* line 284, src/sass/components/_icon.scss */
+/* line 285, src/sass/components/_icon.scss */
 .icon-shopping_cart_add::before {
   content: "\f143";
 }
 
-/* line 288, src/sass/components/_icon.scss */
+/* line 289, src/sass/components/_icon.scss */
 .icon-shopping_cart_sad::before {
   content: "\f144";
 }
 
-/* line 292, src/sass/components/_icon.scss */
+/* line 293, src/sass/components/_icon.scss */
 .icon-shopping_cart::before {
   content: "\f145";
 }
 
-/* line 296, src/sass/components/_icon.scss */
+/* line 297, src/sass/components/_icon.scss */
 .icon-sms::before {
   content: "\f146";
 }
 
-/* line 300, src/sass/components/_icon.scss */
+/* line 301, src/sass/components/_icon.scss */
 .icon-sms_wrench::before {
   content: "\f147";
 }
 
-/* line 304, src/sass/components/_icon.scss */
+/* line 305, src/sass/components/_icon.scss */
 .icon-snow::before {
   content: "\f148";
 }
 
-/* line 308, src/sass/components/_icon.scss */
+/* line 309, src/sass/components/_icon.scss */
 .icon-sound_2::before {
   content: "\f149";
 }
 
-/* line 312, src/sass/components/_icon.scss */
+/* line 313, src/sass/components/_icon.scss */
 .icon-speak::before {
   content: "\f14a";
 }
 
-/* line 316, src/sass/components/_icon.scss */
+/* line 317, src/sass/components/_icon.scss */
 .icon-star::before {
   content: "\f14b";
 }
 
-/* line 320, src/sass/components/_icon.scss */
+/* line 321, src/sass/components/_icon.scss */
 .icon-sun::before {
   content: "\f14c";
 }
 
-/* line 324, src/sass/components/_icon.scss */
+/* line 325, src/sass/components/_icon.scss */
 .icon-time_access::before {
   content: "\f14d";
 }
 
-/* line 328, src/sass/components/_icon.scss */
+/* line 329, src/sass/components/_icon.scss */
 .icon-timer::before {
   content: "\f14e";
 }
 
-/* line 332, src/sass/components/_icon.scss */
+/* line 333, src/sass/components/_icon.scss */
 .icon-timing_belt::before {
   content: "\f14f";
 }
 
-/* line 336, src/sass/components/_icon.scss */
+/* line 337, src/sass/components/_icon.scss */
 .icon-tire_flat::before {
   content: "\f150";
 }
 
-/* line 340, src/sass/components/_icon.scss */
+/* line 341, src/sass/components/_icon.scss */
 .icon-tire::before {
   content: "\f151";
 }
 
-/* line 344, src/sass/components/_icon.scss */
+/* line 345, src/sass/components/_icon.scss */
 .icon-twitter::before {
   content: "\f152";
 }
 
-/* line 348, src/sass/components/_icon.scss */
+/* line 349, src/sass/components/_icon.scss */
 .icon-update::before {
   content: "\f153";
 }
 
-/* line 352, src/sass/components/_icon.scss */
+/* line 353, src/sass/components/_icon.scss */
 .icon-user::before {
   content: "\f154";
 }
 
-/* line 356, src/sass/components/_icon.scss */
+/* line 357, src/sass/components/_icon.scss */
 .icon-video::before {
   content: "\f155";
 }
 
-/* line 360, src/sass/components/_icon.scss */
+/* line 361, src/sass/components/_icon.scss */
 .icon-windscreen_wiper::before {
   content: "\f156";
 }
 
-/* line 364, src/sass/components/_icon.scss */
+/* line 365, src/sass/components/_icon.scss */
 .icon-wrench::before {
   content: "\f157";
 }
 
-/* line 368, src/sass/components/_icon.scss */
+/* line 369, src/sass/components/_icon.scss */
 .icon-youtube::before {
   content: "\f158";
 }
 
-/* line 372, src/sass/components/_icon.scss */
+/* line 373, src/sass/components/_icon.scss */
 .icon-xs {
   font-size: 18px;
 }
 
-/* line 376, src/sass/components/_icon.scss */
+/* line 377, src/sass/components/_icon.scss */
 .icon-sm {
   font-size: 26px;
 }
 
-/* line 380, src/sass/components/_icon.scss */
+/* line 381, src/sass/components/_icon.scss */
 .icon-lg {
   font-size: 38px;
 }
@@ -6025,7 +6086,319 @@ img {
   }
 }
 
-/* line 1412, src/sass/main.scss */
-.icon-menu:before {
-  content: "\f12d";
+/* line 1414, src/sass/main.scss */
+.bt-menu svg {
+  height: 24px;
+  width: 24px;
+  height: 100%;
+  width: 34px;
+  padding-top: 1px;
+}
+
+/* line 1422, src/sass/main.scss */
+.header .icon-menu {
+  width: 100%;
+  padding: 0;
+  font-size: 18px;
+  background: none !important;
+}
+
+/* line 1428, src/sass/main.scss */
+.header .icon {
+  display: block;
+  margin: 0 auto;
+  font-size: 23px;
+  color: var(--white);
+  text-align: center;
+  text-decoration: none;
+  border: none;
+}
+
+/* line 1439, src/sass/main.scss */
+.menu--enabled {
+  /* aux */
+}
+
+/* line 1440, src/sass/main.scss */
+.menu--enabled .menu {
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  pointer-events: none;
+  z-index: 150;
+}
+
+/* line 1452, src/sass/main.scss */
+.menu--enabled .menu--visible {
+  pointer-events: auto;
+}
+
+/* line 1456, src/sass/main.scss */
+.menu--enabled .app-menu {
+  background-color: #fff;
+  color: #fff;
+  position: relative;
+  max-width: 100%;
+  width: 100%;
+  height: 100%;
+  -webkit-box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5);
+  -webkit-transform: translateX(-103%);
+  transform: translateX(-103%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  will-change: transform;
+  z-index: 160;
+  pointer-events: auto;
+}
+
+/* line 1473, src/sass/main.scss */
+.menu--enabled .menu--visible .app-menu {
+  -webkit-transform: none;
+  transform: none;
+}
+
+/* line 1478, src/sass/main.scss */
+.menu--enabled .menu--animatable .app-menu {
+  -webkit-transition: all 130ms ease-in;
+  transition: all 130ms ease-in;
+}
+
+/* line 1482, src/sass/main.scss */
+.menu--enabled .menu--visible.menu--animatable .app-menu {
+  -webkit-transition: all 330ms ease-out;
+  transition: all 330ms ease-out;
+}
+
+/* line 1486, src/sass/main.scss */
+.menu--enabled .menu:after {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  opacity: 0;
+  will-change: opacity;
+  pointer-events: none;
+  -webkit-transition: opacity 0.3s cubic-bezier(0, 0, 0.3, 1);
+  transition: opacity 0.3s cubic-bezier(0, 0, 0.3, 1);
+}
+
+/* line 1501, src/sass/main.scss */
+.menu--enabled .menu--visible.menu:after {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+/* line 1508, src/sass/main.scss */
+.menu--enabled body {
+  margin: 0;
+}
+
+/* line 1512, src/sass/main.scss */
+.menu--enabled .layout {
+  width: 100%;
+  height: 100%;
+  background-color: #f5f5f5;
+  position: relative;
+}
+
+/* line 1519, src/sass/main.scss */
+.menu--enabled .header {
+  background-color: #6F47CE;
+  position: relative;
+  height: 40px;
+}
+
+/* line 1525, src/sass/main.scss */
+.menu--enabled .menu-icon {
+  content: "Menu";
+  color: #fff;
+  background-color: #8A7FDD;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  right: 0;
+}
+
+/* line 1535, src/sass/main.scss */
+.menu--enabled .app-menu {
+  width: 300px;
+  height: 100%;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  background-color: #fff;
+}
+
+/* line 1542, src/sass/main.scss */
+.menu--enabled .menu:after {
+  width: 100%;
+  height: 100%;
+}
+
+/* line 1550, src/sass/main.scss */
+.main-nav li {
+  border-bottom: 1px solid #d6d6d6;
+}
+
+/* line 1553, src/sass/main.scss */
+.app-menu {
+  overflow: hidden;
+}
+
+/* line 1555, src/sass/main.scss */
+.app-menu .fill {
+  width: 30px;
+  z-index: 9999;
+  position: absolute;
+  right: 0;
+  height: 30px;
+  z-index: 99999999;
+  background: none;
+  border: noo;
+  border: none;
+  top: 14px;
+  right: 12px;
+}
+
+/* line 1569, src/sass/main.scss */
+.main-nav .bt-back {
+  position: relative;
+  display: block;
+  padding: 0 20px 0 50px;
+  font-weight: 700;
+  line-height: 50px;
+  color: var(--text);
+  text-align: left;
+  text-decoration: none;
+  text-transform: none;
+  background-color: #eaeaea;
+  border: none;
+  border-radius: 0;
+  width: 100%;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+/* line 1585, src/sass/main.scss */
+.main-nav .title-menu {
+  display: block;
+  padding: 14px 20px;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 1.625;
+  color: var(--white);
+  text-transform: uppercase;
+  background-color: var(--secondary);
+}
+
+/* line 1595, src/sass/main.scss */
+.main-nav .bt-back:before {
+  position: absolute;
+  top: 12px;
+  left: 0;
+  display: block;
+  width: 30px;
+  height: 26px;
+  margin-left: 15px;
+  content: "";
+  background: url(https://s1.medias-auto5.be/Auto5/mobile/maps.png) no-repeat -330px 0 transparent;
+}
+
+/* line 1606, src/sass/main.scss */
+.main-nivel {
+  position: absolute;
+  z-index: 9999;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #fff;
+}
+
+/* line 1616, src/sass/main.scss */
+.main-nav li.bt-child-menu a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+}
+
+/* line 1622, src/sass/main.scss */
+.main-nav li a {
+  width: 100%;
+  font-size: 14px;
+  padding: 0 1rem;
+  padding: 1rem;
+}
+
+/* line 1628, src/sass/main.scss */
+.main-nav .bt-child-menu > a:after {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  right: 1rem;
+  display: block;
+  width: 4px;
+  height: 9px;
+  content: "";
+  background: url(https://s1.medias-auto5.be/Auto5/mobile/maps.png) no-repeat -420px -26px transparent;
+}
+
+/* line 1639, src/sass/main.scss */
+.main-nav a {
+  display: block;
+  color: var(--text);
+  text-decoration: none;
+  vertical-align: middle;
+}
+
+/* line 1647, src/sass/main.scss */
+.main-nav ul li {
+  color: #32394d;
+}
+
+/* line 1652, src/sass/main.scss */
+.main-nav .account-link, .main-nav .vehicle-link {
+  background-color: var(--primary);
+}
+
+/* line 1655, src/sass/main.scss */
+.main-nav .account-link a, .main-nav .vehicle-link a {
+  position: relative;
+  font-size: 16px;
+  color: var(--white);
+  padding: .5rem 1rem;
+}
+
+/* line 1662, src/sass/main.scss */
+.main-nav .account-link small, .main-nav .vehicle-link small {
+  display: block;
+}
+
+/* line 1666, src/sass/main.scss */
+.main-nav .main-list small {
+  font-size: 12px;
+  line-height: 1.625;
+}
+
+/* line 1671, src/sass/main.scss */
+.main-nav .icon:before {
+  left: 5px;
+  font-size: 53px;
 }
