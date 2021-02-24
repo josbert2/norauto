@@ -1,5 +1,6 @@
 /*! project-name v0.0.1 | (c) 2021 YOUR NAME | MIT License | http://link-to-your-git-repo.com */
 /* line 1, src/sass/components/_container.scss */
+
 .container,
 .container-fluid {
   padding-right: 15px;
@@ -6449,3 +6450,4 @@ img {
   left: 5px;
   font-size: 53px;
 }
+body{overflow-x: hidden !important}
