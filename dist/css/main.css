@@ -6065,8 +6065,12 @@ img {
 @media only screen and (max-width: 768px) {
   /* line 1377, src/sass/main.scss */
   .header {
-    margin-top: 65px;
+    margin-top: 0px;
   }
+  .header > .container-fluid{
+    height: 100%;
+  }
+
   /* line 1380, src/sass/main.scss */
   #mobnav-btn {
     display: block;
