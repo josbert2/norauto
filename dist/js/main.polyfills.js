@@ -33,7 +33,8 @@ var oppMenu = document.querySelector(".menu-icon");
 oppMenu.addEventListener("click", toggleClassMenu, false);
 //myMenu.addEventListener("click", toggleClassMenu, false);
 
-
+var CloseoppMenu = document.querySelector(".app-menu.main-nav .fill");
+CloseoppMenu.addEventListener("click", toggleClassMenu, false);
 
 
 

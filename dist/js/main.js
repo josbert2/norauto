@@ -22,6 +22,7 @@ var myMenu = document.querySelector(".menu");
 
 var myMenu2 = document.querySelector(".fill");
 var oppMenu = document.querySelector(".menu-icon");
+
 //myMenu2.addEventListener("transitionend", OnTransitionEnd, false);
 //oppMenu.addEventListener("click", toggleClassMenu, false);
 //myMenu.addEventListener("click", toggleClassMenu, false);
